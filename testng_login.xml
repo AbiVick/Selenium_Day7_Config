@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" thread-count="3" name="Suite">
+  <test name="Test">
+  <parameter name="ibm_browser" value="chrome"></parameter>
+    <classes>
+      <class name="nopCommerce.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="EdgeTest">
+  <parameter name="ibm_browser" value="edge"></parameter>
+    <classes>
+      <class name="nopCommerce.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="GoogleTest">
+    <classes>
+      <class name="googlePage.GoogleSearch"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

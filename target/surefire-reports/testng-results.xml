@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43209" started-at="2022-12-08T01:42:10 PST" finished-at="2022-12-08T01:42:53 PST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43209" started-at="2022-12-08T01:42:10 PST" finished-at="2022-12-08T01:42:53 PST">
+      <class name="nopCommercelog4j.LoginTest">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:nopCommercelog4j.LoginTest@5123a213]" name="launchApp" is-config="true" duration-ms="5364" started-at="2022-12-08T01:42:10 PST" finished-at="2022-12-08T01:42:16 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:nopCommercelog4j.LoginTest@5123a213]" name="verifyLogin" duration-ms="18634" started-at="2022-12-08T01:42:16 PST" finished-at="2022-12-08T01:42:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:nopCommercelog4j.LoginTest@5123a213]" name="closeApp" is-config="true" duration-ms="19167" started-at="2022-12-08T01:42:34 PST" finished-at="2022-12-08T01:42:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- nopCommercelog4j.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" thread-count="3" name="Suite">
+  <test name="Test">
+  <parameter name="ibm_browser" value="chrome"></parameter>
+    <classes>
+      <!-- <class name="nopCommercelog4j.LoginTest"/> -->
+      <class name="Tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
